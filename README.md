@@ -47,11 +47,12 @@ cp -r <my-skills 경로>/.claude/skills/ask-first-brief .claude/skills/
 
 ## 확인한 결과
 
-> ⚠️ 새 대화에서 직접 호출해 본 뒤 채웁니다. (해 보기 전에는 비워 둡니다)
-
-- 적용 프로젝트: HOMEWORK-PROJECT
-- homework-submit 결과: <나온 것을 적기>
-- ask-first-brief 결과: <"게임 만들자"라고 했을 때 나온 질문을 적기>
+- 적용 프로젝트: HOMEWORK-PROJECT (`.claude/skills/`에 복사, 새 세션에서 호출)
+- **homework-submit** (`/homework-submit` 호출): 저장소는 바꾸지 않고 읽기 점검만 했습니다.
+  - 확인됨: 배포 주소 4개가 열림(200), 키·토큰 등 비밀 정보가 추적 파일에 없음, 게임 파일이 모두 커밋됨
+  - 짚어 준 것: README가 `리드미/` 폴더 안이라 저장소 첫 화면에 안 보임, README에 "확인한 결과"가 없음, 푸시하지 않은 커밋이 1개 있음
+  - 하지 않은 것: 게임 조작 여부는 "직접 확인해야 한다"고 안내하고 단정하지 않음. 수정은 허락을 받은 뒤 하겠다고 제안만 함
+- **ask-first-brief**: 아직 확인하지 않음 (확인 후 추가)
 
 ## 참고
 
